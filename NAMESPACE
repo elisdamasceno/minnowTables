@@ -16,29 +16,27 @@ export(record_note_runs)
 export(repair_workbook_package)
 export(richtext_with_highlight)
 export(set_tab_colour)
+export(subs)
+export(subscript_letters)
 export(sup)
 export(superscript_leading_marker)
 export(superscript_letters)
-importFrom(dplyr,
-  across,
-  all_of,
-  arrange,
-  group_by,
-  if_else,
-  lag,
-  mutate,
-  select,
-  summarise,
-  ungroup
-)
+importFrom(dplyr,across)
+importFrom(dplyr,all_of)
+importFrom(dplyr,arrange)
+importFrom(dplyr,group_by)
+importFrom(dplyr,if_else)
+importFrom(dplyr,lag)
+importFrom(dplyr,mutate)
+importFrom(dplyr,select)
+importFrom(dplyr,summarise)
+importFrom(dplyr,ungroup)
 importFrom(magrittr,"%>%")
-importFrom(openxlsx,
-  addStyle,
-  addWorksheet,
-  createStyle,
-  mergeCells,
-  setRowHeights,
-  writeData
-)
+importFrom(openxlsx,addStyle)
+importFrom(openxlsx,addWorksheet)
+importFrom(openxlsx,createStyle)
+importFrom(openxlsx,mergeCells)
+importFrom(openxlsx,setRowHeights)
+importFrom(openxlsx,writeData)
 importFrom(stats,setNames)
 importFrom(tibble,rownames_to_column)
